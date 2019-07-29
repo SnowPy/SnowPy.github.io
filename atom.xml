@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>AiSweet的个人博客</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2019-07-29T16:27:24.361Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>AiSweet</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>test3</title>
+    <link href="http://yoursite.com/2019/07/30/test3/"/>
+    <id>http://yoursite.com/2019/07/30/test3/</id>
+    <published>2019-07-29T16:19:44.000Z</published>
+    <updated>2019-07-29T16:27:24.361Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="代码块测试"><a href="#代码块测试" class="headerlink" title="代码块测试"></a>代码块测试</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br></pre></td><td class="code"><pre><span class="line">from PIL import ImageGrab</span><br><span class="line">from PIL import ImageChops</span><br><span class="line">from PIL import ImageTk</span><br><span class="line">from tkinter import *</span><br><span class="line">def diffimg():</span><br><span class="line">    a = (437,426,913,782)</span><br><span class="line">    b =(437+571,426,913+571,782)</span><br><span class="line">    image1 = ImageGrab.grab(a)</span><br><span class="line">    image2 = ImageGrab.grab(b)</span><br><span class="line">    diff = ImageChops.difference(image1,image2)</span><br><span class="line">    return diff</span><br><span class="line">    </span><br><span class="line">def workimg():</span><br><span class="line">    r = Toplevel()</span><br><span class="line">    diff = diffimg()</span><br><span class="line">    img = ImageTk.PhotoImage(diff)</span><br><span class="line">    label_img = Label(r,image=img)</span><br><span class="line">    label_img.pack()</span><br><span class="line">    r.wm_attributes(&apos;-topmost&apos;,1)</span><br><span class="line">    r.mainloop()</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"># root = Tk()</span><br><span class="line"># theButton1 = Button(root, text=&quot;换图&quot;,width=20,height=3,command=workimg)</span><br><span class="line"># theButton1.pack()</span><br><span class="line"># root.wm_attributes(&apos;-topmost&apos;,1)</span><br><span class="line"># root.mainloop()</span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;代码块测试&quot;&gt;&lt;a href=&quot;#代码块测试&quot; class=&quot;headerlink&quot; title=&quot;代码块测试&quot;&gt;&lt;/a&gt;代码块测试&lt;/h2&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;
+      
+    
+    </summary>
+    
+      <category term="学习" scheme="http://yoursite.com/categories/%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+      <category term="测试" scheme="http://yoursite.com/tags/%E6%B5%8B%E8%AF%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>我的第二篇博客</title>
+    <link href="http://yoursite.com/2019/07/26/%E6%88%91%E7%9A%84%E7%AC%AC%E4%BA%8C%E7%AF%87%E5%8D%9A%E5%AE%A2/"/>
+    <id>http://yoursite.com/2019/07/26/我的第二篇博客/</id>
+    <published>2019-07-26T09:30:22.000Z</published>
+    <updated>2019-07-28T11:30:19.039Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="SOMETHING"><a href="#SOMETHING" class="headerlink" title="SOMETHING"></a>SOMETHING</h1><h2 id="I’m-a-handsome-man"><a href="#I’m-a-handsome-man" class="headerlink" title="I’m a handsome man"></a>I’m a handsome man</h2><ul><li>kind</li><li>comfort</li><li>clever</li><li>charm</li><li>hesitate</li></ul><hr><h2 id="You-konw-who-i-am"><a href="#You-konw-who-i-am" class="headerlink" title="You konw who i am"></a>You konw who i am</h2><h3 id="which-you-can-never-get-it-and-come-after"><a href="#which-you-can-never-get-it-and-come-after" class="headerlink" title="which you can never get it and come after"></a>which you can never get it and come after</h3><hr><h2 id><a href="#" class="headerlink" title></a><img src="%E6%88%91%E7%9A%84%E7%AC%AC%E4%BA%8C%E7%AF%87%E5%8D%9A%E5%AE%A2/R%E5%B8%AE%E5%8A%A9.png" alt></h2><p><img src="https://github.com/SnowPy/SnowPy.github.io/blob/master/css/sucai/R%E5%B8%AE%E5%8A%A9.PNG" alt></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;SOMETHING&quot;&gt;&lt;a href=&quot;#SOMETHING&quot; class=&quot;headerlink&quot; title=&quot;SOMETHING&quot;&gt;&lt;/a&gt;SOMETHING&lt;/h1&gt;&lt;h2 id=&quot;I’m-a-handsome-man&quot;&gt;&lt;a href=&quot;#I’m-a-h
+      
+    
+    </summary>
+    
+      <category term="测试" scheme="http://yoursite.com/categories/%E6%B5%8B%E8%AF%95/"/>
+    
+    
+      <category term="测试" scheme="http://yoursite.com/tags/%E6%B5%8B%E8%AF%95/"/>
+    
+      <category term="博客" scheme="http://yoursite.com/tags/%E5%8D%9A%E5%AE%A2/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://yoursite.com/2019/07/26/hello-world/"/>
+    <id>http://yoursite.com/2019/07/26/hello-world/</id>
+    <published>2019-07-25T23:48:54.589Z</published>
+    <updated>2019-07-25T23:48:54.589Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
