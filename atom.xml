@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-08-05T09:26:14.616Z</updated>
+  <updated>2020-05-20T18:20:09.037Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>pandas常用操作技巧</title>
+    <link href="http://yoursite.com/2020/04/21/pandas%E5%B8%B8%E7%94%A8%E6%93%8D%E4%BD%9C%E6%8A%80%E5%B7%A7/"/>
+    <id>http://yoursite.com/2020/04/21/pandas常用操作技巧/</id>
+    <published>2020-04-21T12:11:23.000Z</published>
+    <updated>2020-05-20T18:20:09.037Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>汇总了一些常用的操作情景与技巧，持续更新</p></blockquote><a id="more"></a><h2 id="在DataFrame增加一行数据"><a href="#在DataFrame增加一行数据" class="headerlink" title="在DataFrame增加一行数据"></a>在DataFrame增加一行数据</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">df.loc[df.shape[0]] = &#123;&quot;colum1&quot;: x1, &quot;colum2&quot;: x2 ...&#125;</span><br><span class="line"></span><br><span class="line"># 如果DataFrame已有columns，可简写为</span><br><span class="line">df.loc[df.shape[0]] = [x1,x2]</span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;汇总了一些常用的操作情景与技巧，持续更新&lt;/p&gt;
+&lt;/blockquote&gt;
+    
+    </summary>
+    
+      <category term="学习" scheme="http://yoursite.com/categories/%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+      <category term="pandas" scheme="http://yoursite.com/tags/pandas/"/>
+    
+      <category term="python" scheme="http://yoursite.com/tags/python/"/>
+    
+  </entry>
   
   <entry>
     <title>python-docx库</title>
@@ -36,9 +62,9 @@
       <category term="学习" scheme="http://yoursite.com/categories/%E5%AD%A6%E4%B9%A0/"/>
     
     
-      <category term="docx" scheme="http://yoursite.com/tags/docx/"/>
-    
       <category term="python" scheme="http://yoursite.com/tags/python/"/>
+    
+      <category term="docx" scheme="http://yoursite.com/tags/docx/"/>
     
   </entry>
   

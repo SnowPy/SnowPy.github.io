@@ -99,16 +99,18 @@
   };
 </script>
 
-  <meta name="description" content="印堂黑过了乌鸦，流世的想法经过。婆娑过了百家，过隙恍恍半世多。">
-<meta property="og:type" content="website">
-<meta property="og:title" content="AiSweet的个人博客">
-<meta property="og:url" content="http://yoursite.com/index.html">
+  <meta name="description" content="汇总了一些常用的操作情景与技巧，持续更新">
+<meta name="keywords" content="pandas,python">
+<meta property="og:type" content="article">
+<meta property="og:title" content="pandas常用操作技巧">
+<meta property="og:url" content="http://yoursite.com/2020/04/21/pandas常用操作技巧/index.html">
 <meta property="og:site_name" content="AiSweet的个人博客">
-<meta property="og:description" content="印堂黑过了乌鸦，流世的想法经过。婆娑过了百家，过隙恍恍半世多。">
+<meta property="og:description" content="汇总了一些常用的操作情景与技巧，持续更新">
 <meta property="og:locale" content="zh-CN">
+<meta property="og:updated_time" content="2020-05-20T18:20:09.037Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="AiSweet的个人博客">
-<meta name="twitter:description" content="印堂黑过了乌鸦，流世的想法经过。婆娑过了百家，过隙恍恍半世多。">
+<meta name="twitter:title" content="pandas常用操作技巧">
+<meta name="twitter:description" content="汇总了一些常用的操作情景与技巧，持续更新">
 
 
 
@@ -118,7 +120,7 @@
 
   
   
-  <link rel="canonical" href="http://yoursite.com/">
+  <link rel="canonical" href="http://yoursite.com/2020/04/21/pandas常用操作技巧/">
 
 
 
@@ -129,7 +131,7 @@
 </script>
 
   
-  <title>AiSweet的个人博客</title>
+  <title>pandas常用操作技巧 | AiSweet的个人博客</title>
   
 
 
@@ -177,8 +179,7 @@
     
   
 
-  <div class="container sidebar-position-left 
-  page-home">
+  <div class="container sidebar-position-left page-post-detail">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -216,7 +217,7 @@
         
         
           
-          <li class="menu-item menu-item-home menu-item-active">
+          <li class="menu-item menu-item-home">
 
     
     
@@ -304,9 +305,9 @@
           
           <div id="content" class="content">
             
-  <section id="posts" class="posts-expand">
-    
-        
+
+  <div id="posts" class="posts-expand">
+      
 
   
   
@@ -336,10 +337,8 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">
-                
-                
-                <a href="/2020/04/21/pandas常用操作技巧/" class="post-title-link" itemprop="url">pandas常用操作技巧</a>
+          <h1 class="post-title" itemprop="name headline">pandas常用操作技巧
+
               
             
           </h1>
@@ -428,25 +427,19 @@
       
 
       
-        
-          <blockquote>
+        <blockquote>
 <p>汇总了一些常用的操作情景与技巧，持续更新</p>
 </blockquote>
-          <!--noindex-->
-          
-            <div class="post-button text-center">
-              <a class="btn" href="/2020/04/21/pandas常用操作技巧/#more" rel="contents">
-                阅读全文 &raquo;
-              </a>
-            </div>
-          
-          <!--/noindex-->
-        
+<a id="more"></a>
+
+<h2 id="在DataFrame增加一行数据"><a href="#在DataFrame增加一行数据" class="headerlink" title="在DataFrame增加一行数据"></a>在DataFrame增加一行数据</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">df.loc[df.shape[0]] = &#123;&quot;colum1&quot;: x1, &quot;colum2&quot;: x2 ...&#125;</span><br><span class="line"></span><br><span class="line"># 如果DataFrame已有columns，可简写为</span><br><span class="line">df.loc[df.shape[0]] = [x1,x2]</span><br></pre></td></tr></table></figure>
       
     </div>
 
     
 
+    
+      
     
 
     
@@ -464,179 +457,41 @@
 
     <footer class="post-footer">
       
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-    
         
-
-  
-  
-  
-
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/08/05/python-docx库/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="AiSweet">
-      <meta itemprop="description" content="印堂黑过了乌鸦，流世的想法经过。婆娑过了百家，过隙恍恍半世多。">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="AiSweet的个人博客">
-    </span>
-
-    
-      <header class="post-header">
-
+          
         
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                
-                <a href="/2019/08/05/python-docx库/" class="post-title-link" itemprop="url">python-docx库</a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-
+        <div class="post-tags">
           
+            <a href="/tags/pandas/" rel="tag"># pandas</a>
           
+            <a href="/tags/python/" rel="tag"># python</a>
           
-
-          
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-
-              
-                
-              
-
-              <time title="创建时间：2019-08-05 06:15:09 / 修改时间：17:26:14" itemprop="dateCreated datePublished" datetime="2019-08-05T06:15:09+08:00">2019-08-05</time>
-            </span>
-          
-
-          
-            
-
-            
-          
-
-          
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/学习/" itemprop="url" rel="index"><span itemprop="name">学习</span></a></span>
-
-                
-                
-              
-            </span>
-          
-
-          
-          
-
-          
-
-          
-
-          <br>
-          
-
-          
-
-          
-
         </div>
-      </header>
-    
+      
 
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
+      
       
       
 
       
-        
-          <blockquote>
-<p>python-docx库主要用来对word文档进行相关操作</p>
-</blockquote>
-          <!--noindex-->
-          
-            <div class="post-button text-center">
-              <a class="btn" href="/2019/08/05/python-docx库/#more" rel="contents">
-                阅读全文 &raquo;
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2019/08/05/python-docx库/" rel="next" title="python-docx库">
+                <i class="fa fa-chevron-left"></i> python-docx库
               </a>
-            </div>
-          
-          <!--/noindex-->
-        
-      
-    </div>
+            
+          </div>
 
-    
+          <span class="post-nav-divider"></span>
 
-    
-
-    
-    
-    
-
-    
-
-    
-      
-    
-    
-
-    
-
-    <footer class="post-footer">
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
       
 
       
-
-      
-
-      
-      
-        <div class="post-eof"></div>
       
     </footer>
   </div>
@@ -645,14 +500,17 @@
   
   </article>
 
-    
-  </section>
-
-  
+  </div>
 
 
           </div>
           
+  
+    
+    <div class="comments" id="gitalk-container"></div>
+  
+
+
 
         </div>
         
@@ -672,8 +530,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <div class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <div class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
 
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -778,6 +645,23 @@
         </div>
       </div>
 
+      
+      <!--noindex-->
+        <div class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+            
+            
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#在DataFrame增加一行数据"><span class="nav-number">1.</span> <span class="nav-text">在DataFrame增加一行数据</span></a></li></ol></div>
+            
+
+          </div>
+        </div>
+      <!--/noindex-->
       
 
       
@@ -907,6 +791,10 @@
 
 
   
+  <script src="/js/scrollspy.js?v=7.2.0"></script>
+<script src="/js/post-details.js?v=7.2.0"></script>
+
+
 
   <script src="/js/next-boot.js?v=7.2.0"></script>
 
@@ -950,6 +838,40 @@
 
   
     
+
+
+  
+
+<script src="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
+
+
+
+  
+
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+
+
+
+  
+
+<script src="//cdn.jsdelivr.net/npm/js-md5@0/src/md5.min.js"></script>
+
+<script>
+  var gitalk = new Gitalk({
+    clientID: '51cb0ed7c74978525ab0',
+    clientSecret: '46467b0520b7990b92a563080f39c17cb2fb4d67',
+    repo: 'SnowPy.github.io',
+    owner: 'SnowPy',
+    admin: ['SnowPy'],
+    id: md5(location.pathname),
+    
+      language: 'zh-CN',
+    
+    distractionFreeMode: 'true'
+  });
+  gitalk.render('gitalk-container');
+</script>
+
 
   
 
